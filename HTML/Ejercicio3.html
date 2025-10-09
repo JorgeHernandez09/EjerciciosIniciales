@@ -1,4 +1,5 @@
-Crea un formulario (no funcional) que tenga los siguientes elementos.
+<!-- 
+ Crea un formulario (no funcional) que tenga los siguientes elementos.
 
 Name
 Last
@@ -8,3 +9,40 @@ Agree to the terms? (radio)
 Agree to the terms? (checkbox)
 Submit Button
 Utiliza todos los atributos que conoces para mejorar al máximo la accesibilidad y la experiencia del usuario. Cuando el formulario se envíe, tiene que llevarnos a una pestaña nueva del navegador.
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+ </head>
+ <body>
+
+<label for="name">Nombre:</label>
+<input type="text" id="name" name="name" >
+
+<label for="last">Apellidos:</label>
+<input type="text" id="last" name="last">
+
+<label for="age">Edad:</label>
+<input type="number" id="age" name="age">
+
+<label for="mail">Email:</label>
+<input type="email" id="mail" name="mail">
+
+  <p>¿Aceptas los términos? (radio)</p>
+  <input type="radio" id="agreeRadio" name="agree" value="yes" required>
+  <label for="agreeRadio">Sí</label>
+  <input type="radio" id="disagreeRadio" name="agree" value="no">
+  <label for="disagreeRadio">No</label>
+
+  <p>¿Aceptas los términos? (checkbox)</p>
+  <input type="checkbox" id="agreeCheckbox" name="agreeCheckbox" required>
+  <label for="agreeCheckbox">Sí, acepto los términos</label><br><br>
+
+  <input type="submit" value="Enviar">
+ </body>
+ </html>

@@ -1,6 +1,6 @@
 <!--Construye la siguiente estructura html, usando emmet
 Guarda el resultado del emmet que has utilizado.
--->
+
 <nav>
   <ul>
     <li><a href="#">Link 1</a></li>
@@ -29,4 +29,43 @@ Guarda el resultado del emmet que has utilizado.
     <li><a href="#">Enlace 3</a></li>
     <li><a href="#">Enlace 4</a></li>
   </ul>
-</footer>
+</footer>-->
+
+<!-- (nav>ul>li*3{<a href="#">Link $</a></li>})+(main>h1{Titulo Destacado}+p*3{Lorem ipsum dolor sit amet, consectetur adipiscing elit}+(article>p*2{Lorem ipsum dolor sit amet, consectetur adipiscing elit})+(article>(span{Todos los derechos}+span{2025})))+footer>ul>li*4{<a href="#">Enlace $</a></li>} -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Link 1</a></li></li>
+            <li><a href="#">Link 2</a></li></li>
+            <li><a href="#">Link 3</a></li></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Titulo Destacado</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </article>
+        <article><span>Todos los derechos</span><span>2025</span></article>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Enlace 1</a></li></li>
+            <li><a href="#">Enlace 2</a></li></li>
+            <li><a href="#">Enlace 3</a></li></li>
+            <li><a href="#">Enlace 4</a></li></li>
+        </ul>
+    </footer>
+</body>
+</html>
