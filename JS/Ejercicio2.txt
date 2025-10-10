@@ -1,0 +1,37 @@
+Ejercicio 2, Hoisting
+Que devuelve por consola cada uno de los siguientes console.log
+
+console.log(a);
+var a = "hola";
+La variable no ha sido definida ya que el valor ha sido asignado despues del console log (undefined)
+
+
+console.log(b);
+let b = "hola";
+En este caso dara un error ya que la variable no ha sido declarada (Uncaught ReferenceError: Cannot access 'b' before initialization
+    at Ejercicio2.js:10:13)
+
+
+console.log(c);
+const c = "hola";
+En este caso dara un error ya que la variable no ha sido declarada (Ejercicio2.js:16 Uncaught ReferenceError: Cannot access 'c' before initialization at Ejercicio2.js:16:13)
+
+
+
+sayHi();
+
+function sayHi() {
+  console.log("Hola desde sayHi!");
+}
+
+En este caso sale Hola desde sayHi!
+
+
+function sayBye() {
+  console.log("Adios desde sayBye!");
+}
+
+sayBye();
+
+En este caso sale Adios desde sayBye!
+
