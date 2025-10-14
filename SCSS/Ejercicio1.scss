@@ -1,0 +1,49 @@
+$main-color-one: white;
+$main-color-two: red(211, 102, 102);
+$main-color-three: green;
+$main-bg-color: black;
+$button-bg-color: rgb(70, 1, 1);
+$margin-example: 2em;
+$width-example: 6.25rem;
+$height-example: 6.25rem;
+$dysplay-example: inline-block;
+
+
+
+.h1  {
+  color: $main-color-one;
+  background-color: $main-bg-color;
+  margin: $margin-example;
+  width: $width-example;
+  height: $height-example;
+  display: $dysplay-example;
+}
+
+.h2 {
+  color: $main-color-two;
+  background-color: $main-bg-color;
+  margin: $margin-example;
+  width: $width-example;
+  height: $height-example;
+  display: $dysplay-example;
+}
+.h3 {
+  color: $main-color-three;
+  background-color: $main-bg-color;
+  margin: $margin-example;
+  width: $width-example;
+  height: $height-example;
+  display: $dysplay-example;
+}
+
+.button {
+  background-color: $button-bg-color;
+  border: none;
+  color: rgb(55, 115, 245);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: $dysplay-example;
+  font-size: 16px;
+  cursor: pointer;
+}

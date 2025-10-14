@@ -1,0 +1,10 @@
+* {
+    color: white;
+    background-color: black;
+    width: 6.25rem;
+    height: 6.25rem;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
