@@ -17,7 +17,6 @@ const c = "hola";
 En este caso dara un error ya que la variable no ha sido declarada (Ejercicio2.js:16 Uncaught ReferenceError: Cannot access 'c' before initialization at Ejercicio2.js:16:13)
 
 
-
 sayHi();
 
 function sayHi() {
