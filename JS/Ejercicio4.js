@@ -23,7 +23,6 @@ console.log(userName(user));
 
 
 /*
-
 Segundo código
 Tenemos una función que calcula el salario anual y el nombre del usuario
 */
