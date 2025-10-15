@@ -1,14 +1,23 @@
 <script lang="ts" setup>
-// Importamos los productos
-import { products } from '@/data/mock';
+defineProps<{
+    title: string;
+    description: string;
+    price: number;
+}>();
 </script>
 
 
 <template>
-   <h1>Lista de productos</h1>
-      <ul>
-        <li v-for="product in products" :key="product.title">
-          {{ product.title }} - ${{ product.price }}
+      <ul class="card">
+        <li>
+          {{ title }}
+        </li>
+        <li> 
+            {{ description }}
+        </li>
+    
+        <li>
+             ${{ price }}
         </li>
       </ul>
   
