@@ -1,12 +1,15 @@
 Ejercicio 1, Nomenclatura y tipo de variables
 
 Escribe una varible llamada user name utilizando las siguientes nomenclaturas:
+
 Camel case: userName
 Pascal case: UserName
 Snake case: user_name
 Kebab case: user-name
 
+
 Define los siguientes tipos de variables, di cuál utilizarías y por qué.
+
 Var: Es una variable global por lo que se puede usar en cualquier parte del código, pero es una variable que puedeS ser sobreescrita.
 Let y Const: Son variables de bloque por lo que solo se pueden usar dentro del bloque en el que son declaradas.La diferencia entre ellas es que let puede variar pero const es fija ya que es constante
 
