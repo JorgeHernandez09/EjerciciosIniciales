@@ -1,21 +1,23 @@
-<script setup>
+<script lang="ts" setup>
 import { ref } from 'vue'
 
 const count = ref(0)
-function Increment (){
-    count.value += 1
-}
 
-function Decrement (){
-    count.value -= 1
-}
+const countLimitUp = 10;
+const countLimitDown = 0;
+const Increment = ()=> count.value++;
+const Decrement = ()=> count.value--;
 
 </script>
 
 <template>
-  <button @click="Increment">Incrementar</button>
-  <button @click="Decrement">Decrementar</button>
-  <TheTitle>
-        <h3>El numero es: {{ count }}</h3>
+<div>
+    <button class=button v-if="count >countLimitDown" @click="Decrement">Decrementar</button>
+    <button class=button v-if="count <countLimitUp" @click="Increment">Incrementar</button>
+
+    <TheTitle>
+        <p>El numero es: {{ count }}</p>
     </TheTitle>
+
+    </div>
 </template> 

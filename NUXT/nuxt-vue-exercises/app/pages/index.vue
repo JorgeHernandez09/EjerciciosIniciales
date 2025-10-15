@@ -6,6 +6,8 @@
         <TheCounter></TheCounter>
     </TheTitle>
 
+    <NuxtLink class= button to="/catalogo">Ir a la página Catalogo</NuxtLink>
+
   </div>
 </template>
 
