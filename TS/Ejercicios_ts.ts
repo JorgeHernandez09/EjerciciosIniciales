@@ -20,7 +20,7 @@ interface Dog extends Animal {
     race:  "Husky" | "Labrador" | "Chucho"
     age: number
 }   
-
+ 
 /*
 Ejercicio 3, Creando más tipos
 Partiendo del ejercicio anterior, crea un nuevo objeto llamado cat que solamente tenga name, color, canSleep
