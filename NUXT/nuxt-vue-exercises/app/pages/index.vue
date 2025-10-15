@@ -8,6 +8,8 @@
 
     <NuxtLink class= button to="/catalogo">Ir a la página Catalogo</NuxtLink>
 
+    <ChildComponent/>
+
   </div>
 </template>
 
