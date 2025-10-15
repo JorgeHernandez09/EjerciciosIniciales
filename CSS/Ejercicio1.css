@@ -34,7 +34,7 @@
   height: var(--height-example);
   display: var(--display-example);
 }
-
+ 
 .button {
   background-color: var(--button-bg-color);
   border: none;
