@@ -1,0 +1,37 @@
+1º
+// composables/useCounter.ts
+
+export function useCounter() {
+  const count = ref(0);
+
+  function increment() {
+    count.value++;
+  }
+}
+
+He quitado el import porque en nuxt 4 no es necesario.
+
+2º
+<script setup>
+
+const items = ref(["Apple", "Banana", "Cherry"]);
+</script>
+<template>
+  <ul>
+    <li v-for="(item, index) in items" :key="index">
+      {{ item }}
+    </li>
+  </ul>
+</template>
+
+He quitado el import porque en nuxt 4 no es necesario.
+
+3º
+<script>
+const counter = 0;
+const maxNumber = 10;
+</script>
+<template>
+  <p v-if="counter == maxNumber">Número, {{ counter }}</p>
+</template>
+
