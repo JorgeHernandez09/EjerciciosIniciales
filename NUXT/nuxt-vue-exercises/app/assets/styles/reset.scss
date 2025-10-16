@@ -1,45 +1,45 @@
 $color-text: black;
 $color-bg: white;
 
-
-* {
-  color: $color-text;
+body {
+  font-family: Arial, sans-serif;
   background-color: $color-bg;
-  padding: 0em  
-
+  color: $color-text;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3 {
-  margin: 0.5em ;
+h1,
+h2,
+h3 {
+  margin: 0.5em;
 }
 
-ul, li {
+p {
+  color: black;
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+ul,
+li {
   background-color: #222;
   color: white;
   border: none;
   margin: 1em;
   padding: 2em 4em;
-  border-radius: 8px;
+  border-radius: 0.5em;
+  display: inline-flex;
 }
 
-
-p {
-  font-size: 1.2em;
-  margin: 0.5em ;
-  font-family: Arial, sans-serif;
-  
-}
 
 .card {
   color: red;
   border: 1px solid #aa0000;
   padding: 1em;
-  margin-top: 2em;
-  margin-bottom: 3em;
-  margin-left: 1em;
+  margin: 1em;
   border-radius: 1em;
 }
-
 
 .button {
   background-color: #222;
@@ -47,6 +47,7 @@ p {
   border: none;
   margin: 1em;
   padding: 2em 4em;
-  border-radius: 8px;
+  border-radius: 0.5em;
   cursor: pointer;
+  display: inline-flex;
 }
