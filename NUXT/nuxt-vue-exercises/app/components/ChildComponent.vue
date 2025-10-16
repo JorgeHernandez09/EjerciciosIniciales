@@ -2,15 +2,11 @@
 const emit = defineEmits(["handleClick"]);
 
 function handleClick() {
-  emit("handleClick", { message: "Hola desde el componente hijo" });
+  emit("handleClick", { message: "Saludos desde el componente hijo" });
 }
 
 const greeting = ref(""); //ref para hacerla variable reactiva
 const fathermessage = inject("message");
-
-function updateGreeting() {
-  greeting.value = fathermessage;
-}
 </script>
 
 <template>

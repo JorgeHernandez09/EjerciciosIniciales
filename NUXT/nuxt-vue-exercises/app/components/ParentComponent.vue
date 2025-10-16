@@ -1,10 +1,11 @@
-<script setup>
+<script lang="ts" setup>
 import ChildComponent from "./ChildComponent.vue";
-function handleCustomEvent(payload) {
- alert (payload.message);
+
+let son = ref<string>("");
+
+function handleCustomEvent(payload: { message: any }) {
+  son.value = payload.message;
 }
-
-
 
 const greeting = "Saludos del componente padre";
 provide("message", greeting);
@@ -12,6 +13,7 @@ provide("message", greeting);
 
 <template>
   <div>
-    <ChildComponent  @handleClick="handleCustomEvent" />  
+    <ChildComponent @handleClick="handleCustomEvent" />
+    <p>{{ son }}</p>
   </div>
 </template>
