@@ -1,4 +1,3 @@
-
 type Product = {
   title: string;
   description: string;
@@ -20,6 +19,5 @@ export const products: Product[] = [
     title: "Mochila de Viaje",
     description: "Mochila resistente al agua con múltiples compartimentos.",
     price: 49.99,
-  }
+  },
 ];
-
