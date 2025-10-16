@@ -1,9 +1,7 @@
 <script lang="ts" setup>
-const count = ref(0);
-const countLimitUp = 10;
-const countLimitDown = 0;
-const Increment = () => count.value++;
-const Decrement = () => count.value--;
+import { useCounter } from "~/composables/useCounter";
+
+const { count, countLimitUp, countLimitDown, Increment, Decrement } = useCounter(); // Lo del parentesis sera el valor que se le quiera dar a: (numero inicial, numero maximo, numero minimo)
 </script>
 
 <template>
