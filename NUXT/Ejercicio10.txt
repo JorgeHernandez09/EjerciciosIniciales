@@ -1,0 +1,30 @@
+¿Qué es un linter?
+Es un corrector de codigo 
+
+¿Qué es Husky?
+Software que reacciona a las acciones de git
+
+¿Qué es la reactividad?
+
+
+¿Desde dónde hay que crear todas las ramas para los desarrollos?
+Desde la rama main
+
+¿Cuándo se puede utilizar la rama main?
+Nunca
+
+
+¿Qué son las custom properties?
+
+
+Diferencias entre v-if y v-show
+
+
+¿Cuáles son los valores de falsy?
+Null, 0, -0, NaN, undefined, string vacio, false
+
+¿Qué es Nullish Coalescing Operator?
+Comparar con ?? y comprueba si recebe un valor falsy
+
+¿Para que se utiliza TypeScript?
+Desarrollar mas rapido y cometer menos errores
