@@ -18,4 +18,4 @@ const fathermessage = inject("message");
     </button>
     <p>{{ greeting }}</p>
   </div>
-</template>
+</template> 

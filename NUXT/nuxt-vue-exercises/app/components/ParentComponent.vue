@@ -16,4 +16,4 @@ provide("message", greeting);
     <ChildComponent @handleClick="handleCustomEvent" />
     <p>{{ son }}</p>
   </div>
-</template>
+</template> 
