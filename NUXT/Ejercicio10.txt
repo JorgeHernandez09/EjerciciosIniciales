@@ -5,6 +5,7 @@ Es un corrector de codigo
 Software que reacciona a las acciones de git
 
 ¿Qué es la reactividad?
+Es un sistema que hace que la intefaz se actualice automaticamente cuando cambian los datos
 
 
 ¿Desde dónde hay que crear todas las ramas para los desarrollos?
@@ -15,9 +16,10 @@ Nunca
 
 
 ¿Qué son las custom properties?
-
+Son variables CSS que empliezan por --
 
 Diferencias entre v-if y v-show
+v-if agrega o elimina el elemento del DOM según la condición, mientras qye v-show  cambia el estilo para que no se muestre
 
 
 ¿Cuáles son los valores de falsy?
