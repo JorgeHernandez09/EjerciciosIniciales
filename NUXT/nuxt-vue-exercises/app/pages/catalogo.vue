@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 // Importar los productos
 import { products } from "@/data/mock";
+const counter = useCounterStore();
+const { count , multipliedCount} = storeToRefs(counter);
 </script>
 
 <template>
@@ -13,5 +15,7 @@ import { products } from "@/data/mock";
       :description="product.description"
       :price="product.price"
     />
+    <p>El contador es: {{ count }}</p>
+    <p>El número duplicado es: {{ multipliedCount }}</p>
   </div>
 </template>

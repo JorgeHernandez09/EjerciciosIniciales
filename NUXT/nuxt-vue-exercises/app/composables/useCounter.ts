@@ -7,5 +7,5 @@ export function useCounter(num = 0, upLimit = 10, downLimit = 0) {  // Parámetr
   const multipliedCount = computed(() => count.value * 2);
   const Reset = () => count.value = 0;
 
-  return { count, countLimitUp, countLimitDown, Increment, Decrement, multipliedCount };
+  return { count, countLimitUp, countLimitDown, Increment, Decrement, multipliedCount, Reset };
 }

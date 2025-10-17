@@ -18,5 +18,3 @@ defineProps<{
     <li>{{ price }}€</li>
   </ul>
 </template>
-
-<style scoped></style>
