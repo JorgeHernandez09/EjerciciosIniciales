@@ -35,3 +35,5 @@ const maxNumber = 10;
   <p v-if="counter == maxNumber">Número, {{ counter }}</p>
 </template>
 
+He creado una variable para que no sea un magic number
+
