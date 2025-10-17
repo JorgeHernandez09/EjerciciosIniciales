@@ -6,26 +6,26 @@ console.log(false + true); ---> 1
 console.log(true + true);  ---> 2
 
 // Comparaciones con arrays
-console.log([] === []); 
-console.log([] + []);
-console.log([1, 2] + [3, 4]);
-console.log([1] + 1);
-console.log([1] - 1);
+console.log([] === []); ---> False
+console.log([] + []); ---> Cadena vacia
+console.log([1, 2] + [3, 4]); --->
+console.log([1] + 1); ---> 2
+console.log([1] - 1); ---> 0
 
 // Comparaciones con objetos
-console.log({} + {});
-console.log({} === {});
-console.log([] === {});
+console.log({} + {}); --->
+console.log({} === {}); ---> False
+console.log([] === {}); ---> False
 
 // Comparaciones especiales
-console.log(null + 1);
-console.log(undefined + 1);
-console.log(null == 0);
-console.log(null <= 0);
-console.log(undefined == null);
+console.log(null + 1); ---> 1
+console.log(undefined + 1); ---> undefined
+console.log(null == 0); ---> False
+console.log(null <= 0); ---> False
+console.log(undefined == null); ---> False
 
 // Operaciones con NaN
-console.log(NaN + 1);
-console.log(NaN == NaN);
-console.log(NaN === NaN); 
+console.log(NaN + 1); ---> Nan
+console.log(NaN == NaN); ---> False
+console.log(NaN === NaN);  ---> False
 
